@@ -11,6 +11,7 @@ board = [
     "....##############....",
 ]
 
+#wow seems like a new method
 
 def flood_fill(input_board: list[str], old: str, new: str, x: int, y: int) -> list[str]:
     for row in input_board:
